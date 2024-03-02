@@ -13,14 +13,18 @@ function ContactMe() {
 
         <div className='contact-content'>
             <div style={{flex: 1}}>
+                <a href="https://mail.google.com/" target='_blank' >
                 <ContactInfoCard
                     iconUrl={<IoMdMail />}
                     text="hammadfaisal0000yahoo@gmail.com"
                 />
-                <ContactInfoCard
-                    iconUrl={<FaGithub />}
-                    text="https://github.com/hammad910"
-                />
+                </a>
+                <a href="https://github.com/hammad910" target='_blank'>
+                    <ContactInfoCard
+                        iconUrl={<FaGithub />} 
+                        text="https://github.com/hammad910"
+                        />
+                </a>
             </div>
             <div style={{flex: 1}}>
                 <ContactForm/>

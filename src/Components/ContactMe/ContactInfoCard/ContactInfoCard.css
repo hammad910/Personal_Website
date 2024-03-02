@@ -10,6 +10,14 @@
     margin-bottom: 2rem;
 }
 
+.contact-details-card p {
+    color: white;
+}
+
+.contact-details-card .icon {
+    color: white;
+}
+
 .contact-details-card .icon{
     width: 4rem;
     height: 4rem;

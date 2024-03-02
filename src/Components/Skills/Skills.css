@@ -1,7 +1,11 @@
 .skills-container{
     margin: 4rem 0;
     position: relative;
+    width: 80%;
+    margin: 0 auto;
 }
+
+
 
 .skills-container::after,.skills-container::before{
     content: "";

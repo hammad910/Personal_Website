@@ -23,11 +23,11 @@ function MobileNav({ toggleMenu, isOpen }) {
                         <li>
                             <a className='menu-item' href='#contactMe'>Contact Me</a>
                         </li>
-                        <a className='menu-item2' href='#contactMe'>
+                        {/* <a className='menu-item2' href='#contactMe'>
                             <button className='contact-btn'>
                                 Hire Me
                             </button>
-                        </a>
+                        </a> */}
                     </ul>
                 </div>
             </div>

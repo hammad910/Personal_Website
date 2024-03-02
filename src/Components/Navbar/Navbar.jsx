@@ -36,9 +36,9 @@ function navbar() {
                         </li>
                     ))}
                         <a className='menu-item2' href='#contactMe'>
-                        <button className='contact-btn' onClick={() => { }}>
+                        {/* <button className='contact-btn' onClick={() => { }}>
                             Hire Me
-                        </button>
+                        </button> */}
                         </a>
                     </ul>
                     <button class='menu-btn' onClick={toggleMenu}>
