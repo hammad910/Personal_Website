@@ -36,7 +36,7 @@ function Projects() {
   }
 
   return (
-    <section className='projects-container' id='Projects' data-aos="slide-up" data-aos-duration="6000">
+    <section className='projects-container' id='Projects' >
       <h5>Projects </h5>
       <div className='projects-content'>
         <div className='arrow-left' onClick={leftSlider}>

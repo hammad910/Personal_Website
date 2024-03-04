@@ -42,3 +42,9 @@
     font-size: 0.9rem;
     font-weight: 400;
 }
+
+@media(max-width : 468px){
+    .contact-details-card p{
+        font-size: 0.7rem;
+    }
+}

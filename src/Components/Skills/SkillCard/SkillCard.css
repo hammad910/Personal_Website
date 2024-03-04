@@ -8,6 +8,8 @@
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .skills-card:hover, .skills-card.active{
@@ -45,9 +47,7 @@
 }
 
 @media (max-width: 1025px){
-    .skills-card{
-        padding: 2rem;
-    }
+   
     .skills-card span{
         font-size: 1rem;
     }
@@ -59,9 +59,12 @@
         width: 1.8rem;
     }
 
-    @media(max-width: 768px){
+    @media(max-width: 468px){
         .skills-card span{
             font-size: 0.9rem;
+        }
+        .skills-card{
+            padding: 1rem;
         }
     }
 }

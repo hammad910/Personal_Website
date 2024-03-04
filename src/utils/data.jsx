@@ -2,6 +2,8 @@ import { PiUsersThreeFill } from "react-icons/pi";
 import { FaServer } from "react-icons/fa6";
 import { GrDatabase } from "react-icons/gr";
 import { FaTools } from "react-icons/fa";
+
+import shoesImg from '../assets/Images/shoes store.png'
 export const SKILLS = [
     {
         title: "Frontend",
@@ -11,26 +13,24 @@ export const SKILLS = [
             { skill: 'Css3', percentage: '90%' },
             { skill: 'JavaScript', percentage: '85%' },
             { skill: 'React.js', percentage: '80%' },
+            { skill: 'Redux', percentage: '80%' },
             { skill: 'Next.js', percentage: '80%' },
-            // {skill: 'Next.js', percentage: '70%'},
+            {skill: 'TypeScript', percentage: '70%'},
         ]
     },
     {
         title: "Backend",
         icon: <FaServer />,
         skills: [
-            { skill: 'Exress.js', percentage: '80%' },
-            { skill: 'Next.js', percentage: '80%' },
-            { skill: 'Node.js', percentage: '75%' },
+            { skill: 'Python', percentage: '50%' },
         ]
     },
     {
         title: "Data Base",
         icon: <GrDatabase />,
         skills: [
-            // {skill: 'Problem Solving', percentage: '80%'},
-            { skill: 'MongoDB', percentage: '70%' },
-            { skill: 'Mongoose', percentage: '70% ' },
+            { skill: 'SQL', percentage: '70%' },
+            { skill: 'MySQL', percentage: '70% ' },
         ]
     },
     {
@@ -63,30 +63,17 @@ export const work_Experience = [
 
 export const PROJECTS = [
     {
-        title: "Project Name",
-        skill: "Html • Css • JavaScript • React.js ",
-        description1: "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        description2: "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+        title: "Acceccories Ecommerce Store",
+        skill: "React.js • Css",
+        // link: "https://facebook.com",
+        status: "Complete",
 
     },
     {
-        title: "Project Name",
-        skill: "Html • Css • JavaScript • React.js ",
-        description1: "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-        description2: "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+        title: "Shoes Ecommerce Store",
+        skill: "Next.js • Tailwind",
+        img: shoesImg,
+        link: "https://personal-ecommerce-frontend-9hfy.vercel.app/",
+        status: "Not Complete!",
     },
-    {
-        title: "Project Name",
-        skill: "Html • Css • JavaScript • React.js ",
-        description1: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here.",
-        description2: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here.",
-
-    },
-    {
-        title: "Project Name",
-        skill: "Html • Css • JavaScript • React.js ",
-        description1: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here.",
-        description2: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here.",
-    }
-
 ]
