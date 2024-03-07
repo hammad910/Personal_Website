@@ -62,12 +62,19 @@ export const work_Experience = [
 ]
 
 export const PROJECTS = [
-    {
-        title: "Acceccories Ecommerce Store",
-        skill: "React.js • Css",
-        // link: "https://facebook.com",
-        status: "Complete",
+    // {
+    //     title: "Acceccories Ecommerce Store",
+    //     skill: "React.js • Css",
+    //     // link: "https://facebook.com",
+    //     status: "Complete",
 
+    // },
+    {
+        title: "Shoes Ecommerce Store",
+        skill: "Next.js • Tailwind",
+        img: shoesImg,
+        link: "https://personal-ecommerce-frontend-9hfy.vercel.app/",
+        status: "Not Complete!",
     },
     {
         title: "Shoes Ecommerce Store",

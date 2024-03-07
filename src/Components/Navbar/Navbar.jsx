@@ -37,7 +37,7 @@ function navbar() {
             {name:'Home', path:'#/'},
             {name:'Skills', path:'#Skills'},
             {name:'Projects', path:'#Projects'},
-            {name:'Work Experience', path:'#workExperience'},
+            // {name:'Work Experience', path:'#workExperience'},
             {name:'Contact Me', path:'#contactMe'},
         ]
     const toggleMenu = () => {

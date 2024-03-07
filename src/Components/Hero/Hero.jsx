@@ -11,7 +11,7 @@ import './Hero.css'
 const Hero = () => {
 
     const [ typeWriter ] = useTypewriter({
-        words: ['Passionate about web design, committed to delivering excellence.', 'Coding with creativity, designing with purpose.', 'Turning ideas into code, creating a seamless online presence for you.'],
+        words: ['Coding', 'Problem Solving.', 'Creativity.','Learning.'],
         loop: true,
         // typeSpeed: 120,
         // deleteSpeed: 120
@@ -22,8 +22,8 @@ const Hero = () => {
             <div className='hero-content'>
                 <h2>Hey! I Am</h2>
                 <h2>Muhammad Hammad</h2>
-                <p fontSize={{sm:'20px', md:'105px'}}>{typeWriter}
-                    {/* <span style={{color:'white'}}>{typeWriter}</span> */}
+                <p >I Like{' '}
+                    <span style={{color:'#5185b9'}}>{typeWriter}</span>
                     <Cursor/>
                 </p>
             </div>
