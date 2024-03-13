@@ -9,7 +9,7 @@ function Projects_Card({ details }) {
         <div className="Projects-skill">{details.skill}</div>
         <div
           className="status"
-          style={{ color: details.status === "Complete" ? "green" : "red" }}
+          style={{ color: details.status === "Completed.." ? "green" : "red" }}
         >
           {details.status}
         </div>

@@ -4,6 +4,7 @@ import { GrDatabase } from "react-icons/gr";
 import { FaTools } from "react-icons/fa";
 
 import shoesImg from '../assets/Images/shoes store.png'
+import accessoriesImg from '../assets/Images/accessories.png'
 export const SKILLS = [
     {
         title: "Frontend",
@@ -22,15 +23,15 @@ export const SKILLS = [
         title: "Backend",
         icon: <FaServer />,
         skills: [
-            { skill: 'Python', percentage: '50%' },
+            { skill: 'Nodejs', percentage: '80%' },
+            { skill: 'Expressjs', percentage: '75%' },
         ]
     },
     {
         title: "Data Base",
         icon: <GrDatabase />,
         skills: [
-            { skill: 'SQL', percentage: '70%' },
-            { skill: 'MySQL', percentage: '70% ' },
+            { skill: 'MongoDB', percentage: '70%' },
         ]
     },
     {
@@ -39,7 +40,7 @@ export const SKILLS = [
         skills: [
             { skill: 'Git, Gitlab & GitHub', percentage: '85%' },
             { skill: 'Visual Studio Code', percentage: '85%' },
-            { skill: 'Responsive Design', percentage: '80% ' },
+            { skill: 'Responsive Design', percentage: '100% ' },
         ]
     },
 ]
@@ -71,16 +72,16 @@ export const PROJECTS = [
     // },
     {
         title: "Shoes Ecommerce Store",
-        skill: "Next.js • Tailwind",
+        skill: "Next.js • Redux • Tailwind",
         img: shoesImg,
         link: "https://personal-ecommerce-frontend-9hfy.vercel.app/",
         status: "Not Complete!",
     },
     {
-        title: "Shoes Ecommerce Store",
-        skill: "Next.js • Tailwind",
-        img: shoesImg,
-        link: "https://personal-ecommerce-frontend-9hfy.vercel.app/",
-        status: "Not Complete!",
+        title: "Accessories Ecommerce Store",
+        skill: "React.js • Css",
+        img: accessoriesImg,
+        link: "https://accessories-store-frontend.vercel.app/",
+        status: "Completed..",
     },
 ]

@@ -23,7 +23,9 @@ function ContactForm() {
   const notify = () => {
     const fields = Object.values(values).every((value) => value.trim() !== '');
     if (fields) {
-      toast.success('Your message sent successfully!');
+      toast.success('Your Message Sent Successfully..');
+    }else{
+      toast.error('Please Complete All Fields!')
     }
   }
 

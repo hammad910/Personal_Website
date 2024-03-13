@@ -8,7 +8,7 @@ import ContactForm from './ContactForm/ContactForm';
 
 function ContactMe() {
   return (
-    <section className='contact-container' id='contactMe' data-aos="slide-up" data-aos-duration="6000">
+    <section className='contact-container' id='contactMe' >
         <h5>Contact Me</h5>
 
         <div className='contact-content'>
