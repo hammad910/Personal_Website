@@ -1,7 +1,7 @@
 import React from 'react'
 import './ContactMe.css'
 import ContactInfoCard from './ContactInfoCard/ContactInfoCard'
-import { FaGithub } from "react-icons/fa";
+import { FaGitlab } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import ContactForm from './ContactForm/ContactForm';
 
@@ -13,16 +13,14 @@ function ContactMe() {
 
         <div className='contact-content'>
             <div style={{flex: 1}}>
-                <a href="https://mail.google.com/" target='_blank' >
                 <ContactInfoCard
                     iconUrl={<IoMdMail />}
                     text="hammadfaisal0000yahoo@gmail.com"
                 />
-                </a>
-                <a href="https://github.com/hammad910" target='_blank'>
+                <a href="https://gitlab.com/hammad98" target='_blank'>
                     <ContactInfoCard
-                        iconUrl={<FaGithub />} 
-                        text="https://github.com/hammad910"
+                        iconUrl={<FaGitlab />} 
+                        text="https://gitlab.com/hammad98"
                         />
                 </a>
             </div>

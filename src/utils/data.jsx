@@ -14,6 +14,7 @@ export const SKILLS = [
             { skill: 'Css3', percentage: '90%' },
             { skill: 'JavaScript', percentage: '85%' },
             { skill: 'React.js', percentage: '80%' },
+            { skill: 'Vue.js', percentage: '80%' },
             { skill: 'Redux', percentage: '80%' },
             { skill: 'Next.js', percentage: '80%' },
             {skill: 'TypeScript', percentage: '70%'},
@@ -23,15 +24,15 @@ export const SKILLS = [
         title: "Backend",
         icon: <FaServer />,
         skills: [
-            { skill: 'Nodejs', percentage: '80%' },
-            { skill: 'Expressjs', percentage: '75%' },
+            { skill: 'Php', percentage: '75%' },
+            { skill: 'Laravel', percentage: '75%' },
         ]
     },
     {
         title: "Data Base",
         icon: <GrDatabase />,
         skills: [
-            { skill: 'MongoDB', percentage: '70%' },
+            { skill: 'Mysql', percentage: '70%' },
         ]
     },
     {
@@ -63,13 +64,6 @@ export const work_Experience = [
 ]
 
 export const PROJECTS = [
-    // {
-    //     title: "Acceccories Ecommerce Store",
-    //     skill: "React.js • Css",
-    //     // link: "https://facebook.com",
-    //     status: "Complete",
-
-    // },
     {
         title: "Shoes Ecommerce Store",
         skill: "Next.js • Redux • Tailwind",
@@ -82,6 +76,6 @@ export const PROJECTS = [
         skill: "React.js • Css",
         img: accessoriesImg,
         link: "https://accessories-store-frontend.vercel.app/",
-        status: "Completed..",
+        status: "Not Completete! due to database corrupt",
     },
 ]

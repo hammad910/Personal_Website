@@ -17,6 +17,10 @@
     gap: 3rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     .contact-content{
         flex-direction: column-reverse;

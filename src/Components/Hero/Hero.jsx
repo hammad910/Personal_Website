@@ -3,7 +3,7 @@ import icon1 from '../../assets/Images/frontend.png'
 import hero2 from '../../assets/Images/hero-2.png'
 import hero3 from '../../assets/Images/hero-3.png'
 import hero4 from '../../assets/Images/hero-4.png'
-import vector from '../../assets/Images/navpic.jpg'
+import myImg from '../../assets/Images/my 2 pic.png'
 import {useTypewriter, Cursor} from 'react-simple-typewriter'
 // import 'react-simple-typewriter/dist/App.css'; 
 import './Hero.css'
@@ -33,7 +33,7 @@ const Hero = () => {
                     <div className='tech-icon'>
                         <img src={hero2} width={'70%'} />
                     </div>
-                    <img src={vector} width={'100%'} />
+                    <img src={myImg} width={'100%'} />
                 </div>
 
                 <div>
