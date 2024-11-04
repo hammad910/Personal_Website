@@ -8,6 +8,11 @@ import Footer from './Components/Footer/Footer'
 import Projects from './Components/Projects/Projects'
 
 function App() {
+
+  useEffect(() => {
+    window.gtag('config', 'YOUR_TRACKING_ID');
+  }, []);
+  
   return (
     <>
       <Navbar />
