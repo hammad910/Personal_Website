@@ -10,7 +10,7 @@ import Projects from './Components/Projects/Projects'
 function App() {
 
   useEffect(() => {
-    window.gtag('config', 'YOUR_TRACKING_ID');
+    window.gtag('config', 'G-343PGMKT4Y');
   }, []);
   
   return (
