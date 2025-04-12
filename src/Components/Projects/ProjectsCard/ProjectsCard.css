@@ -4,20 +4,19 @@
     border: 1.5px solid #5185b9;
     padding: 1.5rem;
     width: 90%;
+    height: 130%;
     margin: 0 auto;
 }
 
-.Projects-card h6{
-    font-size: 1.05rem;
-    font-weight: 500;
-    margin-bottom: 0.7rem;
+.Projects-card h2{
+    font-size: 1.50rem;
+    font-weight: bold;
     color: white;
 }
-.Projects-card .status{
-    font-size: 1rem;
-    margin-top: -15px;
-    margin-bottom: 15px;
-    font-weight: 500;
+
+.Projects-card .description{
+    margin-bottom: 0.7rem;
+    margin-top: 0.7rem;
 }
 
 .Projects-card .link{
