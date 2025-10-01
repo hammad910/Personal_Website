@@ -3,9 +3,9 @@ import { FaServer } from "react-icons/fa6";
 import { GrDatabase } from "react-icons/gr";
 import { FaTools } from "react-icons/fa";
 
-import pdfImg from "../assets/Images/13- CityPDF.webp";
-import holiday from "../assets/Images/holiday.webp";
-import yieldr from "../assets/Images/yieldr.webp";
+import workallies from "../assets/Images/workallies.png";
+import delizia from "../assets/Images/delizia.png";
+import clicky from "../assets/Images/clicky.png";
 import Dublezi from "../assets/Images/Dublezi.webp";
 export const SKILLS = [
   {
@@ -67,29 +67,33 @@ export const work_Experience = [
 
 export const PROJECTS = [
   {
-    title: "CityPDF - PDF conversion platform",
+    title: "WorkAllies - Freelance Based platform",
     description:
-      "CityPDF is a comprehensive online platform that offers PDF-related tools such as merging, compressing editing, and converting PDF files. It focuses on simplicity, ease of use, and efficiency, catering to users who need quick and secure file handling solutions",
-    skill: "React js • Laravel • MySql",
-    img: pdfImg,
+      "Designed and developed a Pakistan-based freelance marketplace similar to Fiverr. The platform includes secure authentication, project posting, bidding, and payment features to connect freelancers with clients seamlessly.",
+    skill: "Laravel • MySql",
+    img: workallies,
+    link: "https://www.workallies.com"
   },
   {
-    title: "HolidayHub - Property Rental Platform",
+    title: "Delizia - Dessert Brand",
     description:
-      "This project have a user-friendly interface for listing and booking properties. Users can create profiles. The platform supports multiple payment gateways, secure transactions, real-time bookings, and integrating dynamic content from backend systems.",
+      "Designed and developed an e-commerce website for Delizia, a chocolate-based milkshake and dessert brand. The platform allows browse products, customize orders, and place purchases with a smooth experience.",
     skill: "React js • Laravel • MySql",
-    img: holiday,
+    img: delizia,
+    link: "https://delizia.pk"
   },
   {
-    title: "Yieldr",
-    description:"Landing page for financial advisor company.",
+    title: "Clicky - Ecommerce Platform",
+    description: "Developed an e-commerce platform Clicky offering men’s fashion including t-shirts, shoes, and accessories. The website provides a smooth shopping experience with easy navigation, secure checkout, and modern UI design.",
     skill: "React js • Laravel • MySql",
-    img: yieldr,
+    img: clicky,
+    link: "https://www.clicky.pk/",
   },
   {
-    title: "Dublezi is a charity-based platform",
+    title: "Dublezi - Charity Based platform",
     link: "https://www.dublezi.com",
-    description:"Dublezi is a charity-based platform where users participate in trivia games for a chance to win money. A portion of the donations supports charitable organizations in Romania. The goal was to create a gamified approach to fundraising, encouraging engagement through competitive rewards.",
+    description:
+      "Dublezi is a charity-based platform where users participate in trivia games for a chance to win money. A portion of the donations supports charitable organizations in Romania. The goal was to create a gamified approach to fundraising.",
     skill: "React js • Laravel • MySql",
     img: Dublezi,
   },
